@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Signika&display=swap%27');
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    background-image: 
+    linear-gradient(to top, #0000008f 100%, #0000008f 100%),
+    url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg');
+  }
+
+  /* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+    linear-gradient(to top, #0000008f 100%, #0000008f 100%),
+    url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg');
+} */
+  
+  .all {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+  }
+  
+  .parent {
+    text-align: center;
+    vertical-align: middle;
+    margin: 100px;
+    padding: 20px;
+    background: rgba(20,200,55,0.7);
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    box-shadow: 10px 10px rgb(1 1 1 / 40%);
+  }
+  
+  form {
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+  
+  h3 {
+    font-family: "Arial", sans-serif;
+    letter-spacing: 2.3px;
+    font-weight: lighter;
+    font-size: 24.5px;
+    text-shadow: 3px 5px 6px rgba(51,33,22,0.7);
+  }
+  
+  input {
+    width: 90%;
+    height: 27px;
+    margin-bottom: 20px;
+  }
+  
+  .in-name {
+    border: solid 1px rgba(143,32,100,0.7);
+    padding: 10px;
+    font-size: 16.6px;
+  }
+  
+  .btn {
+    width: 223px;
+    height: 50px;
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background: none;
+    font-size: 18.6px;
+    color: #ffffff;
+    overflow: hidden;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: scale(1.2);
+  }
+
+  .btn>div{
+    
+    transition: all 0.6s ease 0s;
+  }
+  .two {
+    color: rgb(113, 216, 54);
+  }
+  
+  .btn-day {
+    background: rgba(23,52,132,0.6);
+    transition: all 0.6s ease 0s;
+  }
+  
+  
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Signika', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  nav {
+      width: 100%;
+  }
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items:center;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 999;
+    background-color: whitesmoke;
+  }
+  .site-header { 
+    padding: .5em 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    transform: scale(1.7);
+    margin: .6em 0;
+    display: flex;
+  }
+  
+  
+  .site-navigation ul, 
+  .site-navigation li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em;
+  }
+
+  .nav li {
+    transition: 0.5s;
+  }
+
+  .nav li:hover {
+      color: aqua;
+      transform: scale(1.2);
+      transition: 0.5s;
+  }
+
+  .nav li a {
+      font-size: 20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    section {
+        padding-top: 160px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .site-navigation li {
+      display: inline-block;
+      margin: 0.4em;
+  }
+  }
